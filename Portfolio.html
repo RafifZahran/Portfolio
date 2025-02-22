@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Achmad Rafif Zahran</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>I'm Achmad Rafif Zahran, a passionate Computer Science Student</p>
+    </header>
+
+    <section class="about-me">
+        <h2>About Me</h2>
+        <img src="profile.jpg" alt="Achmad Rafif Zahran">
+        <p>Halo! Saya Achmad Rafif Zahran, seorang mahasiswa Ilmu Komputer dengan minat dalam pengembangan perangkat lunak, desain web, dan teknologi inovatif.</p>
+    </section>
+
+    <section class="education">
+        <h2>Education</h2>
+        <table>
+            <tr><th>Year</th>
+            <section class="Institution">
+            <th>Institution</th>
+            </section>
+            </tr>
+            <section class="Isi">
+            <tr><td>2021 - 2024</td><td>Al-Wildan International Islamic High School</td></tr>
+            <tr><td>2024 - Now</td><td>School of Computer Science, Bina Nusantara University</td></tr>
+        </section>
+        </table>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <div class="skill-list">
+            <span><i class="fab fa-microsoft"></i> Microsoft Office</span>
+            <span><i class="fab fa-cuttlefish"></i> C++</span>
+            <span><i class="fab fa-html5"></i> HTML</span>
+            <span><i class="fab fa-css3-alt"></i> CSS</span>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <h2>My Projects</h2>
+        <div class="portfolio-container">
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <p>Project 1 - Web Design</p>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <p>Project 2 - Mobile App</p>
+            </div>
+            <div class="project">
+                <img src="project3.jpg" alt="Project 3">
+                <p>Project 3 - AI Implementation</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
+
